@@ -1,0 +1,65 @@
+.sendcloud_shipping * {
+    box-sizing: border-box;
+}
+.sendcloud_shipping .bg-primary,
+.sendcloud_shipping .bg-success,
+.sendcloud_shipping .bg-danger,
+.sendcloud_shipping .bg-warning,
+.sendcloud_shipping .bg-info {
+    padding: 0.5em;
+}
+
+.sendcloud_shipping .sendcloud_shipping_notifications {
+    margin-bottom: 1em;
+}
+.sendcloud_shipping .sendcloud_shipping_connect .form-group {
+    margin-bottom: 1em;
+}
+.sendcloud_shipping .panel .panel-body .intro-text p {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.sendcloud_shipping .info ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.spinner {
+    position: absolute;
+    right: 10vw;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #8ECDDD;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.spinner-container {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.spinner-text {
+    position: absolute;
+    right: 4vw;
+    font-size: 16px;
+    color: #8ECDDD;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.none {
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
